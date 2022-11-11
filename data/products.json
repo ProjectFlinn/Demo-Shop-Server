@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Watch",
+    "description": "You'll never forget the time again!",
+    "imageUrl": "/watch.jpeg",
+    "unitsInStock": 23,
+    "basePrice": 29.99
+  },
+  {
+    "id": 2,
+    "name": "Bike",
+    "description": "Save the planet and get some exercise!",
+    "imageUrl": "/bike.jpeg",
+    "basePrice": 129.99,
+    "unitsInStock": 10
+  },
+  {
+    "id": 3,
+    "name": "Lantern",
+    "description": "Why walk around in the dark?",
+    "imageUrl": "/lantern.jpeg",
+    "basePrice": 19.99,
+    "unitsInStock": 6
+  },
+  {
+    "id": 4,
+    "name": "Chess set",
+    "description": "It's a classic!",
+    "imageUrl": "/chess.jpeg",
+    "basePrice": 14.99,
+    "unitsInStock": 30
+  },
+  {
+    "id": 5,
+    "name": "Toothpaste",
+    "description": "Don't forget to brush!",
+    "imageUrl": "/toothpaste.jpeg",
+    "basePrice": 3.99,
+    "unitsInStock": 50
+  },
+  {
+    "id": 6,
+    "name": "Sunglasses",
+    "description": "Protect your eyes.",
+    "imageUrl": "/sunglasses.jpeg",
+    "basePrice": 29.99,
+    "unitsInStock": 15
+  },
+  {
+    "id": 7,
+    "name": "Harry Potter and the Philosopher's Stone",
+    "description": "A magical world.",
+    "imageUrl": "/harryPotter.jpeg",
+    "basePrice": 9.99,
+    "unitsInStock": 15
+  },
+  {
+    "id": 8,
+    "name": "Guitar",
+    "description": "Learn how to play!",
+    "imageUrl": "/guitar.jpeg",
+    "basePrice": 79.99,
+    "unitsInStock": 3
+  },
+  {
+    "id": 9,
+    "name": "Car",
+    "description": "It's super quick!",
+    "imageUrl": "/car.jpeg",
+    "basePrice": 3999.99,
+    "unitsInStock": 2
+  },
+  {
+    "id": 10,
+    "name": "Laptop",
+    "description": "Use it for work!",
+    "imageUrl": "/laptop.jpeg",
+    "basePrice": 599.99,
+    "unitsInStock": 12
+  },
+  {
+    "id": 11,
+    "name": "House",
+    "description": "Live in it!",
+    "imageUrl": "/house.jpeg",
+    "basePrice": 200000,
+    "unitsInStock": 1
+  },
+  {
+    "id": 12,
+    "name": "Football",
+    "description": "Score a goal!",
+    "imageUrl": "/football.jpeg",
+    "basePrice": 5.99,
+    "unitsInStock": 40
+  }
+]
