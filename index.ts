@@ -1,8 +1,11 @@
 import express from 'express';
+import cors from 'cors';
 import productRoutes from './routes/products';
 
 const app = express();
 const PORT = 8000;
+
+app.use(cors());
 
 app.use('/products', productRoutes);
 
