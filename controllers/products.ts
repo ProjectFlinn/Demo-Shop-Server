@@ -8,6 +8,19 @@ export const getProducts = (req: Request, res: Response) => {
   res.status(200).json(products);
 };
 
+export const getTotalPriceForProduct = (req: Request, res: Response) => {
+  const productId = parseInt(req.params.productId);
+  const quantity = req.query['quantity'] as string;
+  const product = rawProducts.find(product => product.id === productId);
+  if (product) {
+    const salePrice = applyDiscount(product).salePrice;
+    const totalPrice = salePrice * parseInt(quantity);
+    res.status(200).json({totalPrice})
+  } else {
+    res.status(HTTP_STATUS_NOT_FOUND).json({message: "Cannot find product with this product ID."});
+  }
+}
+
 export const getProduct = (req: Request, res: Response) => {
   const productId = parseInt(req.params.productId);
   const product = rawProducts.find(product => product.id === productId);
