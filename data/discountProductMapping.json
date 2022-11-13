@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "productId": 1,
+    "discountId": 1
+  },
+  {
+    "id": 2,
+    "productId": 3,
+    "discountId": 1
+  },
+  {
+    "id": 3,
+    "productId": 7,
+    "discountId": 3
+  },
+  {
+    "id": 4,
+    "productId": 10,
+    "discountId": 2
+  }
+]
